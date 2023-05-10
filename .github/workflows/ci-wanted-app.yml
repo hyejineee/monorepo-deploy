@@ -28,3 +28,5 @@ jobs:
         working-directory: apps/wanted
         run: |
           yarn build
+
+          
