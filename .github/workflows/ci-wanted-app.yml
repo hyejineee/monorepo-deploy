@@ -3,7 +3,7 @@ name: CI-wanted-app
 on:
   push:
     branches:
-      - 6-deploy-github-actions
+      - 6-deploy
     paths:
       - 'apps/wanted/**'
 
@@ -29,4 +29,3 @@ jobs:
         run: |
           yarn build
 
-          
